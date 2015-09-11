@@ -1,9 +1,7 @@
 ##  term_doc.pl
-##  Last Updated February 16, 2012
 ##  Vito D'Orazio
-##  The Pennsylvania State University
-##  Department of Political Science
-##  Contact: vjd125@psu.edu
+##  Contact: vjdorazio@gmail.com
+##  September 11, 2015
 #
 ##  program to read documents delimited by ">>>>>>>>>>>>>" and "<<<<<<<<<<<<<<<<"
 ##  assumes tokenization of documents already happened

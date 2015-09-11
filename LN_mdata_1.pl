@@ -1,9 +1,7 @@
 ##  LN_mdata_1.pl
-##  Last Updated February 27, 2012
+##  September 11, 2015
 ##  Vito D'Orazio
-##  The Pennsylvania State University
-##  Department of Political Science
-##  Contact: vjd125@psu.edu
+##  Contact: vjdorazio@gmail.com
 ##
 ##  program to extract meta-data from a corpus of Lexis-Nexis documents
 ##
@@ -11,12 +9,12 @@
 ##  IF the second argument is NO the program will not remove actors or predict dyad of interest.
 ##  Entering NO will speed up the program considerably.
 ##
-##  output spreadsheet: dyads are ISO-3166, unless state is not in ISO, then its according to Schrodt coding
+##  output spreadsheet: dyads are ISO-3166, unless state is not in ISO, then its according to CountryCodes coding
 ##
 ##  Output: spreadsheet.tsv, documents.txt, docs.noactors.txt
 ##
 ##  PROGRAM ORIGIN:
-##  Adapted from the MID 4.0 Data Collection project, contact D'Orazio (vjd125@psu.edu) or Schrodt (schrodt@psu.edu)
+##  Adapted from the MID 4.0 Data Collection project, contact D'Orazio (vjd125@psu.edu)
 ##
 ##  Programming for origin files supported by National Science Foundation Political Science Program Grant
 ##  SES-0719634 "Improving the Efficiency of Militarized Interstate Dispute Data Collection using
@@ -27,11 +25,6 @@
 ##   are permitted under the terms of the GNU General Public License:
 ##   http://www.opensource.org/licenses/gpl-license.html
 ##
-##  Report bugs to: vjd125@psu.edu
-##
-## List of compatible news sources by Lexis-Nexis Codes or Names:
-## BBC, AP, New York Times, CNN, UPI, TASS, AFX, AFP, Xinhua, The Times London,
-## DPA, The Gazette Montreal, Japan Economic Newswire, Interfax, Jerusalem Post
 
 ## List of subroutines: TrimString, Filter
 

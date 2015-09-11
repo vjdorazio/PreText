@@ -1,7 +1,12 @@
 #!/bin/bash
 ##   process.sh
+## September 11, 2015
+## Vito D'Orazio
+## vjdorazio@gmail.com
+##
 ## This script has several checks to make sure everything is set up correctly.
 ## Be sure to check the PreText documentation for details.
+
 
 ## Directory structure check.
 cd ..
